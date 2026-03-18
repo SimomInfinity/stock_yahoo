@@ -1,0 +1,2 @@
+# stock_yahoo
+yfinance
