@@ -1,2 +1,2 @@
 # stock_yahoo
-yfinance
+使用yfinance套件
