@@ -31,7 +31,8 @@ schedule.every().hours.at(":17").do(run_and_cancelJob)
 # schedule.every(2).to(10).seconds.do(run_at_spec_time).until("15:00")
 
 while True:
-    #要求 schedule 每n單位 檢查一次是否有任務需要執行
+    #要求 schedule 每n單位 檢查一次是否有任務需要執行，呼叫run_pending()這個方法
     schedule.run_pending()
+    
     time.sleep(1)
 
